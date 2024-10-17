@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Йокогама: суши-бар</title>
+        <link href="styles/3.2.css" rel="stylesheet" type="text/css">
+        <meta name="description" content="Суши-бар Йокогама. Горячие блюда, суши, роллы, напитки">
+        <meta name="keywords" content="суши-бар, Йокогама, роллы, суши, безалкогольные напитки">
+        <meta name="author" content="Обучающиеся ТИУ">
+        <meta name="generator" content="VSCode">
+    </head>
+    <body>
+        <header>
+            <h1>Суши-бар<em>&laquo;Йокогама&raquo;</em></h1>
+            <p><img src="images/Суши3.jpg"></p>
+        </header>
+        <main>
+            <h2>Заказ столиков</h2>
+            <form action="mailto:order@yokogama.ru" method="post" enctype="text/plain">
+                <p>
+                    <label for="name">Как к вам обращаться?</label><br>
+                    <input type="text" name="name" id="name" required>
+                </p>
+
+                <p>
+                    <label for="phone">По какому телефону Вам перезвоннить?</label><br>
+                    <input type="text" name="phone" id="phone" required>
+                </p>
+
+                <p>
+                    <label for="time">На какое время желаете заказать столик?</label><br>
+                    <input type="time" name="time" id="time" required>
+                </p>
+
+                <p>
+                    <label for="cnt">На сколько человек заказывается столик?</label><br>
+                    <input type="radio" name="cnt" id="cnt" value="1">
+                    1&nbsp;&nbsp; &nbsp;
+                    <input type="radio" name="cnt" value="2">
+                    2&nbsp; &nbsp;&nbsp;
+                    <input type="radio" name="cnt" value="more"> 3 и более
+                </p>
+
+                <p>
+                    <input type="checkbox" name="children" value="*"> Среди клиентов будут дети
+                </p>
+
+                <p>
+                    <input type="submit">
+                </p>
+            </form>
+        </main>
+        <footer>
+            <p class="greeting">Ждем вас!</p>
+            <address>Наш адрес: ул. Мельникайте, 70.</address>
+            <p>
+                <br>&copy; студенты кафедры &laquo;бизнес - информатики 
+                и математики&raquo;<br>
+            </p>
+        </footer>
+    </body>
+</html>

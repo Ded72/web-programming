@@ -1,0 +1,47 @@
+body {font-family: Arial;}
+hl {
+font-size: 32pt;
+text-align: center;
+}
+p {
+font-size: 14pt !important;
+text-align: justify;
+}
+.picture {text-align: center;}
+.special {
+    color: #FF0000;
+    font-family: "Monotype Corsiva";
+}
+p.greeting {font-size: 24pt;}
+.btn {
+    border-radius: 5px;
+    font-family: Arial, Helvetica, serif;
+    font-size: .8 em;
+}
+.delete {
+    background-color: red;
+    }
+.add {
+background-color: green;
+}
+.edit {
+    background-color: grey;
+}
+.picture img{width: 25%;}
+
+h1 strong {color: red;}
+
+nav {
+    float: left;
+    width: 150px;
+    margin: 10px 30px 10px 0px;
+    padding: 10px;
+    border: black medium double;
+    border-radius: 10px;
+}
+
+nav div {
+    font-size: 23pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

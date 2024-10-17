@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Йокогама: суши-бар</title>
+        <link href="styles/3.2.css" rel="stylesheet" type="text/css">
+        <meta name="description" content="Суши-бар Йокогама. Горячие блюда, суши, роллы, напитки">
+        <meta name="keywords" content="суши-бар, Йокогама, роллы, суши, безалкогольные напитки">
+        <meta name="author" content="Обучающиеся ТИУ">
+        <meta name="generator" content="VSCode">
+    </head>
+    <body>
+        <header>
+            <h1>Суши-бар<em>&laquo;Йокогама&raquo;</em></h1>
+            <p><img src="images/Суши3.jpg"></p>
+        </header>
+        <main>
+            <h2>Заказ еды на вынос</h2>
+            <form action="mailto:order@yokogama.ru" method="post" enctype="text/plain">
+                <p>
+                    <label for="dishes">Что желаете заказать?</label><br>
+                    <select name="dishes" id="dishes" size="8" multiple>
+                        <optgroup label="Горячие блюда">
+                            <option value="unagi">Фузилли с кальмаром</option>
+                            <option value="hamachi">Том Ям</option>
+                            <option value="hamachi">Гёдза</option>
+                        </optgroup>
+                        <optgroup label="Суши">
+                            <option value="chukka">Суши с копченым лососем</option>
+                            <option value="maguro">Суши с королевской креветкой</option>
+                            <option value="tobiko">Суши с угрем</option>
+                        </optgroup>
+                        <optgroup label="Роллы">
+                            <option value="chukka">Спайси тунец</option>
+                            <option value="maguro">Калифорния с лососем</option>
+                            <option value="tobiko">Филадельфия с угрём</option>
+                            <option value="tobiko">Ролл с авокадо</option>
+                            <option value="tobiko">Ролл с угрём</option>
+                            <option value="tobiko">Ролл с креветкой</option>
+                        </optgroup>
+                        <optgroup label="Безалкогольные напитки">
+                            <option value="chukka">Морс</option>
+                            <option value="maguro">Байкал</option>
+                            <option value="tobiko">Чайный гриб</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="phone">По какому телефону Вам перезвоннить?</label><br>
+                    <input type="text" name="phone" id="phone" required>
+                </p>
+
+                <p>
+                    Выберите на сколько Вам понравились наши блюда?<br>
+                    <input type="range" min="1" max="10" value="8">
+                </p>
+
+                <fieldset>
+                    <legend>Имя и фамилия</legend>
+                    <p>
+                        Имя<br><input type="text" name="namel">
+                    </p>
+                    <p>
+                        Фамилия<br><input type="text" name="name2">
+                    </p>
+                </fieldset>
+
+                <p>
+                    <input type="submit">
+                </p>
+            </form>
+        </main>
+        <footer>
+            <p class="greeting">Ждем вас!</p>
+            <address>Наш адрес: ул. Мельникайте, 70.</address>
+            <p>
+                <br>&copy; студенты кафедры &laquo;бизнес - информатики 
+                и математики&raquo;<br>
+            </p>
+        </footer>
+    </body>
+</html>
